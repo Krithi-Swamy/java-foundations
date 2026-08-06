@@ -26,11 +26,10 @@ public class Day2 {
     }
 
     public static int sumToN(int n) {
-        int result = 0;
-        for(int i = n; i > 0; i--) {
-            result = result + i;
-        }
-        return result;
+       if(n > 0) {
+           n = n + sumToN(n-1);
+       }
+       return n;
     }
 
     public static void main(String[] args){
