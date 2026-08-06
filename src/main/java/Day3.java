@@ -16,7 +16,7 @@ public class Day3 {
         }
 
         //Program 4 + 6
-        String original = " A, man a plan,   a  canal , Panama ???  ";
+        String original = " A, man a plan,   a  canal , Panama ?????  ";
         original = original.toLowerCase();
         original = original.trim();
         original = original.replaceAll("[^a-zA-Z]", "");
