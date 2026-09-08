@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Day4_Calculator {
+public class Build1_Calculator {
     public static void displayMenu() {
         System.out.println("1. Addition");
         System.out.println("2. Substraction");

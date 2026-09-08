@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Day5_GuessingGame {
+public class Build2_GuessingGame {
 
     public static int printMenuReadLevel(Scanner scn) {
         System.out.println("Please choose the level");

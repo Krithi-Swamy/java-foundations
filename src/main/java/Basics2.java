@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Day2 {
+public class Basics2 {
 
     public static String classify(int n) {
         boolean isPrime = true;
